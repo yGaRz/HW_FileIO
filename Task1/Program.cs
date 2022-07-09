@@ -1,6 +1,6 @@
-﻿//Console.WriteLine("Please input file path:");
-//string folderPath = Console.ReadLine();
-string folderPath = "C:\\Users\\ygar\\source\\repos\\HW_FileIO\\testFolder";
+﻿Console.WriteLine("Please input file path:");
+string folderPath = Console.ReadLine();
+//string folderPath = "C:\\Users\\ygar\\source\\repos\\HW_FileIO\\testFolder";
 //string folderPath = "C:\\Users\\ygar\\Downloads";
 if (Directory.Exists(folderPath))
 {
